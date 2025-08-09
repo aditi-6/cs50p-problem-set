@@ -15,13 +15,6 @@ a=input("enter in snake case: ")
 result=""
 capitalize_next= False #flag
 for i in a:
-  '''  if i=="_":
-      capitalize_next=True
-      result+=i.upper()
-
-    else:
-       capitalize_next= False
-       result+=i'''
   if i == "_":
         capitalize_next = True
         
@@ -31,4 +24,5 @@ for i in a:
             capitalize_next = False
         else:
             result += i
+
 print (result)
